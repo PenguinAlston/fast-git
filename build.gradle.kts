@@ -24,6 +24,10 @@ repositories {
 // Dependencies are managed with Gradle version catalog - read more: https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
 //    implementation(libs.annotations)
+    //类似于maven中坐标 ：地址，名称，版本
+    implementation("org.gitlab:java-gitlab-api:4.1.1")
+    implementation("org.projectlombok:lombok:1.18.26")
+    implementation("org.projectlombok:lombok:1.18.26")
 }
 
 // Set the JVM language level used to build the project. Use Java 11 for 2020.3+, and Java 17 for 2022.2+.
