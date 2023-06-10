@@ -1,7 +1,7 @@
-package com.github.penguinalston.fastgit.bean;
+package com.github.penguinalston.fastgit.bean
 
-import lombok.Data;
-import lombok.experimental.Accessors;
+import lombok.Data
+import lombok.experimental.Accessors
 
 @Data
 @Accessors(chain = true)
